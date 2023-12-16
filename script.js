@@ -21,12 +21,12 @@ setTimeout(function() {
 fireworks.push(new Firework(width / 2, height, 0, -9.5, 10, "gold", String = 1,true));
 setInterval(function() {
   fireworks.push(new Firework(width / 2, height, 0, -9.5, 10, "gold", String = 1,true));
-}, 6750);
+}, 5400);
 
 fireworks.push(new Firework(width / 5.5, height, 0, -10, 8, "blue", String = 3, false));
 setInterval(function() {
   fireworks.push(new Firework(width / 5.5, height, 0, -10, 10, "blue" , String = 3, true));
-}, 9250);
+}, 7600);
 
 for (var i = 0; i < 250; i++) {
   circle(
