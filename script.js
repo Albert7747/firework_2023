@@ -23,7 +23,7 @@ setInterval(function() {
   fireworks.push(new Firework(width / 2, height, 0, -9.5, 10, "gold", String = 1,true));
 }, 5400);
 
-fireworks.push(new Firework(width / 5.5, height, 0, -10, 8, "blue", String = 3, false));
+// fireworks.push(new Firework(width / 5.5, height, 0, -10, 8, "blue", String = 3, false));
 setInterval(function() {
   fireworks.push(new Firework(width / 5.5, height, 0, -10, 10, "blue" , String = 3, true));
 }, 7600);
